@@ -8,7 +8,7 @@ export default function HeroSection() {
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black">
             {/* Background Grid/Effect */}
-            <div className="absolute inset-0 bg-[url('/assets/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
+            <div className="absolute inset-0 bg-[url('/portfolio/assets/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
 
             <div className="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
                 {/* Text Content */}
@@ -32,7 +32,7 @@ export default function HeroSection() {
 
                     <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
                         <a
-                            href="/assets/MyResume.pdf"
+                            href="/portfolio/assets/MyResume.pdf"
                             download="MD_Ashiq_Hossain_Resume.pdf"
                             className="px-8 py-3 bg-primary text-black font-bold text-sm uppercase tracking-wider hover:bg-white transition-colors flex items-center gap-2 clip-path-polygon"
                         >
