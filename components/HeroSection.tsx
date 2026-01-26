@@ -5,7 +5,7 @@ import { Download, ChevronDown } from "lucide-react";
 import { useScrambleText } from "@/hooks/useScrambleText";
 
 export default function HeroSection() {
-    const scrambledText = useScrambleText("MD. ASHIQ HOSSAIN", 3000);
+    const scrambledText = useScrambleText("MD. ASHIQ HOSSAIN", 2000, 5000);
 
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black">
