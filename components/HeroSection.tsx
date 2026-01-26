@@ -21,7 +21,7 @@ export default function HeroSection() {
                         Hello, I am
                     </h2>
                     <h1
-                        className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6 uppercase drop-shadow-[0_0_15px_rgba(252,238,10,0.5)]"
+                        className="text-4xl md:text-6xl lg:text-7xl font-glitch font-bold text-primary mb-6 uppercase -skew-x-12 drop-shadow-[5px_5px_0px_rgba(0,240,255,1)]"
                     >
                         MD. ASHIQ HOSSAIN
                     </h1>

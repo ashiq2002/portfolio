@@ -14,6 +14,7 @@
   --color-secondary: var(--secondary);
   --font-sans: var(--font-inter);
   --font-display: var(--font-orbitron);
+  --font-glitch: var(--font-rubik-glitch);
 }
 
 body {
@@ -71,21 +72,55 @@ body {
 }
 
 @keyframes glitch-anim {
-  0% { clip: rect(21px, 9999px, 86px, 0); }
-  20% { clip: rect(69px, 9999px, 30px, 0); }
-  40% { clip: rect(7px, 9999px, 81px, 0); }
-  60% { clip: rect(32px, 9999px, 12px, 0); }
-  80% { clip: rect(98px, 9999px, 53px, 0); }
-  100% { clip: rect(36px, 9999px, 62px, 0); }
+  0% {
+    clip: rect(21px, 9999px, 86px, 0);
+  }
+
+  20% {
+    clip: rect(69px, 9999px, 30px, 0);
+  }
+
+  40% {
+    clip: rect(7px, 9999px, 81px, 0);
+  }
+
+  60% {
+    clip: rect(32px, 9999px, 12px, 0);
+  }
+
+  80% {
+    clip: rect(98px, 9999px, 53px, 0);
+  }
+
+  100% {
+    clip: rect(36px, 9999px, 62px, 0);
+  }
 }
 
 @keyframes glitch-anim2 {
-  0% { clip: rect(10px, 9999px, 91px, 0); }
-  20% { clip: rect(55px, 9999px, 34px, 0); }
-  40% { clip: rect(19px, 9999px, 66px, 0); }
-  60% { clip: rect(11px, 9999px, 49px, 0); }
-  80% { clip: rect(85px, 9999px, 2px, 0); }
-  100% { clip: rect(43px, 9999px, 39px, 0); }
+  0% {
+    clip: rect(10px, 9999px, 91px, 0);
+  }
+
+  20% {
+    clip: rect(55px, 9999px, 34px, 0);
+  }
+
+  40% {
+    clip: rect(19px, 9999px, 66px, 0);
+  }
+
+  60% {
+    clip: rect(11px, 9999px, 49px, 0);
+  }
+
+  80% {
+    clip: rect(85px, 9999px, 2px, 0);
+  }
+
+  100% {
+    clip: rect(43px, 9999px, 39px, 0);
+  }
 }
 
 .clip-path-polygon {

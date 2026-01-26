@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Orbitron } from "next/font/google";
+import { Inter, Orbitron, Rubik_Glitch } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -9,6 +9,12 @@ const inter = Inter({
 
 const orbitron = Orbitron({
   variable: "--font-orbitron",
+  subsets: ["latin"],
+});
+
+const rubikGlitch = Rubik_Glitch({
+  variable: "--font-rubik-glitch",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -25,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${orbitron.variable} antialiased bg-black text-white`}
+        className={`${inter.variable} ${orbitron.variable} ${rubikGlitch.variable} antialiased bg-black text-white`}
         suppressHydrationWarning
       >
         {children}
