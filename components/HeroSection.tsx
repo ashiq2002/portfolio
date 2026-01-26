@@ -2,11 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Download, ChevronDown } from "lucide-react";
-import { useScrambleText } from "@/hooks/useScrambleText";
 
 export default function HeroSection() {
-    const scrambledText = useScrambleText("MD. ASHIQ HOSSAIN", 2000, 5000);
-
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black">
             {/* Background Grid/Effect */}
@@ -23,12 +20,16 @@ export default function HeroSection() {
                     <h2 className="text-secondary tracking-widest text-sm md:text-base font-medium mb-4 uppercase">
                         Hello, I am
                     </h2>
-                    <h1
-                        className="glitch-text text-4xl md:text-6xl lg:text-7xl font-ascii font-bold text-primary mb-6 uppercase -skew-x-12 drop-shadow-[5px_5px_0px_rgba(0,240,255,1)]"
-                        data-text={scrambledText}
-                    >
-                        {scrambledText}
-                    </h1>
+
+                    <div className="flex flex-col md:flex-row items-center gap-0 mb-6">
+                        <div className="cyberpunk-stripes hidden md:block" />
+                        <h1
+                            className="bg-primary text-black px-8 py-2 text-4xl md:text-5xl lg:text-6xl font-ascii font-bold uppercase skew-x-[-15deg] clip-path-polygon"
+                        >
+                            MD. ASHIQ HOSSAIN
+                        </h1>
+                    </div>
+
                     <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto md:mx-0">
                         Innovative <span className="text-primary font-bold">Flutter & Android Developer</span> building high-performance, real-time mobile applications with cutting-edge technologies.
                     </p>

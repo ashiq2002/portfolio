@@ -127,3 +127,24 @@ body {
 .clip-path-polygon {
   clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
 }
+
+.cyberpunk-bar {
+  background: var(--primary);
+  color: black;
+  padding: 0.5rem 2rem;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.cyberpunk-stripes {
+  width: 100px;
+  height: 40px;
+  background: repeating-linear-gradient(-45deg,
+      var(--primary),
+      var(--primary) 4px,
+      transparent 4px,
+      transparent 8px);
+  margin-right: 10px;
+}
