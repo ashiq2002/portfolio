@@ -2,8 +2,11 @@
 
 import { motion } from "framer-motion";
 import { Download, ChevronDown } from "lucide-react";
+import { useScrambleText } from "@/hooks/useScrambleText";
 
 export default function HeroSection() {
+    const scrambledText = useScrambleText("MD. ASHIQ HOSSAIN", 3000);
+
     return (
         <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black">
             {/* Background Grid/Effect */}
@@ -21,9 +24,10 @@ export default function HeroSection() {
                         Hello, I am
                     </h2>
                     <h1
-                        className="text-4xl md:text-6xl lg:text-7xl font-glitch font-bold text-primary mb-6 uppercase -skew-x-12 drop-shadow-[5px_5px_0px_rgba(0,240,255,1)]"
+                        className="glitch-text text-4xl md:text-6xl lg:text-7xl font-glitch font-bold text-primary mb-6 uppercase -skew-x-12 drop-shadow-[5px_5px_0px_rgba(0,240,255,1)]"
+                        data-text={scrambledText}
                     >
-                        MD. ASHIQ HOSSAIN
+                        {scrambledText}
                     </h1>
                     <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto md:mx-0">
                         Innovative <span className="text-primary font-bold">Flutter & Android Developer</span> building high-performance, real-time mobile applications with cutting-edge technologies.
