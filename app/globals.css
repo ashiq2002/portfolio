@@ -15,6 +15,7 @@
   --font-sans: var(--font-inter);
   --font-display: var(--font-orbitron);
   --font-glitch: var(--font-rubik-glitch);
+  --font-ascii: var(--font-dot-gothic);
 }
 
 body {

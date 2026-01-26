@@ -24,7 +24,7 @@ export default function HeroSection() {
                         Hello, I am
                     </h2>
                     <h1
-                        className="glitch-text text-4xl md:text-6xl lg:text-7xl font-glitch font-bold text-primary mb-6 uppercase -skew-x-12 drop-shadow-[5px_5px_0px_rgba(0,240,255,1)]"
+                        className="glitch-text text-4xl md:text-6xl lg:text-7xl font-ascii font-bold text-primary mb-6 uppercase -skew-x-12 drop-shadow-[5px_5px_0px_rgba(0,240,255,1)]"
                         data-text={scrambledText}
                     >
                         {scrambledText}
