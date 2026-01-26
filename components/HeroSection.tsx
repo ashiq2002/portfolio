@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { Download, ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
@@ -56,12 +55,10 @@ export default function HeroSection() {
                 >
                     <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                     <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-white/10 overflow-hidden bg-black/50 ring-1 ring-white/20">
-                        <Image
+                        <img
                             src="/portfolio/assets/ashiq.png"
                             alt="MD. Ashiq Hossain"
-                            fill
-                            className="object-cover scale-110 group-hover:scale-100 transition-transform duration-500"
-                            priority
+                            className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-500"
                         />
                     </div>
                 </motion.div>
