@@ -21,10 +21,10 @@ export default function HeroSection() {
                         Hello, I am
                     </h2>
 
-                    <div className="flex flex-col md:flex-row items-center gap-0 mb-6">
-                        <div className="cyberpunk-stripes hidden md:block" />
+                    <div className="flex flex-row items-center gap-0 mb-6">
+                        <div className="cyberpunk-stripes" />
                         <h1
-                            className="bg-primary text-black px-8 py-2 text-4xl md:text-5xl lg:text-6xl font-ascii font-bold uppercase skew-x-[-15deg] clip-path-polygon"
+                            className="bg-primary text-black px-4 md:px-8 py-2 text-3xl md:text-5xl lg:text-6xl font-bold italic uppercase skew-x-[-15deg] clip-path-polygon"
                         >
                             MD. ASHIQ HOSSAIN
                         </h1>
