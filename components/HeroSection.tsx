@@ -6,10 +6,7 @@ import BinaryRainAsciiName from "./BinaryRainAsciiName";
 
 export default function HeroSection() {
     return (
-        <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black">
-            {/* Background Grid/Effect */}
-            <div className="absolute inset-0 bg-[url('/portfolio/assets/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
-
+        <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
             <div className="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
                 {/* Text Content */}
                 <motion.div

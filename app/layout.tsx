@@ -29,6 +29,8 @@ export const metadata: Metadata = {
   description: "Portfolio of MD. ASHIQ HOSSAIN - Mobile Application Developer specializing in Flutter and Android.",
 };
 
+import CyberpunkBackground from "@/components/CyberpunkBackground";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -40,6 +42,7 @@ export default function RootLayout({
         className={`${inter.variable} ${orbitron.variable} ${rubikGlitch.variable} ${dotGothic.variable} antialiased bg-black text-white`}
         suppressHydrationWarning
       >
+        <CyberpunkBackground />
         {children}
       </body>
     </html>

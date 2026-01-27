@@ -59,8 +59,7 @@ const experiences = [
 
 export default function ExperienceSection() {
     return (
-        <section id="experience" className="py-20 bg-black relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_right,_rgba(252,238,10,0.05),transparent_40%)]" />
+        <section id="experience" className="py-20 relative overflow-hidden">
 
             <div className="container mx-auto px-6 relative z-10">
                 <motion.div

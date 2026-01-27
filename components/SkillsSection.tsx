@@ -52,7 +52,7 @@ const skillCategories = [
 
 export default function SkillsSection() {
     return (
-        <section id="skills" className="py-20 bg-[#0c0c0c] relative">
+        <section id="skills" className="py-20 relative">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
