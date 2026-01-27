@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Send } from "lucide-react";
 
 export default function ContactSection() {
     return (
@@ -48,9 +48,19 @@ export default function ContactSection() {
                                 </div>
                             </a>
 
-                            <a href="#" className="flex items-center gap-4 text-gray-300 hover:text-primary transition-colors group">
+                            <a href="https://github.com/ashiq2002" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-primary transition-colors group">
                                 <div className="p-3 bg-white/5 rounded-lg group-hover:bg-primary/20 transition-colors">
-                                    <Linkedin size={24} className="text-pink-500" />
+                                    <Github size={24} className="text-white" />
+                                </div>
+                                <div>
+                                    <span className="block text-xs uppercase text-gray-500 tracking-wider">GitHub</span>
+                                    <span className="text-lg">Follow on GitHub</span>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/md-ashiq-hossain-0583b21ab/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-gray-300 hover:text-primary transition-colors group">
+                                <div className="p-3 bg-white/5 rounded-lg group-hover:bg-primary/20 transition-colors">
+                                    <Linkedin size={24} className="text-[#0077b5]" />
                                 </div>
                                 <div>
                                     <span className="block text-xs uppercase text-gray-500 tracking-wider">LinkedIn</span>
