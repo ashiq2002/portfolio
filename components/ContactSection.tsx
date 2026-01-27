@@ -5,7 +5,7 @@ import { Mail, Phone, Linkedin, Send } from "lucide-react";
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="py-20 relative border-t border-white/5">
+        <section id="contact" className="py-20 bg-[#050505] relative border-t border-white/5">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

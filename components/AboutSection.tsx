@@ -23,7 +23,7 @@ const highlights = [
 
 export default function AboutSection() {
     return (
-        <section id="about" className="py-20 relative">
+        <section id="about" className="py-20 bg-black relative">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
