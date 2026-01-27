@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Download, ChevronDown } from "lucide-react";
+import BinaryRainAsciiName from "./BinaryRainAsciiName";
 
 export default function HeroSection() {
     return (
@@ -23,11 +24,13 @@ export default function HeroSection() {
 
                     <div className="flex flex-col md:flex-row items-center gap-0 mb-6">
                         <div className="cyberpunk-stripes hidden md:block" />
-                        <h1
-                            className="bg-primary text-black px-8 py-2 text-4xl md:text-5xl lg:text-6xl font-ascii font-bold uppercase skew-x-[-15deg] clip-path-polygon"
+                        <div
+                            className="bg-primary text-black px-2 py-4 md:px-8 md:py-6 skew-x-[-15deg] clip-path-polygon overflow-hidden"
                         >
-                            MD. ASHIQ HOSSAIN
-                        </h1>
+                            <div className="skew-x-[15deg]">
+                                <BinaryRainAsciiName />
+                            </div>
+                        </div>
                     </div>
 
                     <p className="text-gray-400 text-lg md:text-xl mb-8 max-w-2xl mx-auto md:mx-0">
