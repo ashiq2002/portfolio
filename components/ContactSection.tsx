@@ -22,9 +22,9 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                     {/* Contact Info */}
                     <div className="space-y-8">
-                        <h3 className="text-2xl font-bold text-white mb-6">Let's Collaborate</h3>
+                        <h3 className="text-2xl font-bold text-white mb-6">I'm an App Developer Expert</h3>
                         <p className="text-gray-400 mb-8">
-                            Interested in working together? I'm always open to discussing web development projects or partnership opportunities.
+                            Interested in working together? I'm always open to discussing app development projects or partnership opportunities.
                         </p>
 
                         <div className="space-y-6">
